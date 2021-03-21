@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+	function getAnswer() {
+		const randomValue = Math.random();
+		const answer = ["Yes!! Don't be lazy!", "No... today is a Duvet day...", "You decide!"];
+
+		const random = Math.floor(Math.random() * answer.length);
+		alert(answer[random]);
+	}
+</script>
+
+<center>
+	<img src="sloth.png" width="500">
+	<h1>Should I get out of bed!?</h1>
+
+	<button type="button" onclick="getAnswer()">Get the answer!</button>
+
+</center> 
+</body>
+</html>
